@@ -21,9 +21,13 @@ android {
         }
 
         release {
-            minifyEnabled true
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            minifyEnabled false
+            proguardFiles  'proguard-rules.pro'
+//            getDefaultProguardFile('proguard-android-optimize.txt'),
         }
+    }
+    dataBinding{
+        enabled=true
     }
 
 }
