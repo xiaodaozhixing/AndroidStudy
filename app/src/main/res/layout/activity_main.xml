@@ -17,5 +17,16 @@
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="parent"/>
 
+        <Button
+                android:layout_width="@dimen/main_btn_enter_width"
+                android:layout_height="@dimen/main_btn_enter_height"
+                android:background="@drawable/selector_main_btn_enter"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginBottom="@dimen/main_btn_enter_height"
+        />
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

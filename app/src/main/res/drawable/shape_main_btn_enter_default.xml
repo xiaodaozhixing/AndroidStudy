@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/main_btn_enter_height" android:width="@dimen/main_btn_enter_width"/>
+    <corners android:radius="@dimen/main_btn_enter_height"/>
+    <solid android:color="@color/steelBlue"/>
+    <stroke android:color="@color/aliceBlue" android:width="0.5dp"/>
+</shape>
